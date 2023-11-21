@@ -3,8 +3,18 @@
   <div xmlns="http://www.w3.org/1999/xhtml">
     <style>
         *{
+            --color-main: #71ffbd;
+            --color-primary: #44daff;
+            --color-secondary: #7977e8;
+            --color-background: #191A25;
+            --color-link: #9ecbfed7;
+            --color-link-active: #9ecbfe;
+
             padding: 0;
             margin: 0;
+            outline: none;
+            color: inherit;
+            box-sizing: border-box;
         }
         .body{
             height: 400px;
@@ -13,12 +23,49 @@
             justify-content: center;
             align-items: center;
             background-color: #191A25;
-            border-radius: 8px;
+            background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+            animation: border 5s linear infinite;
+            background-size: 200% 200%;
+            background-position: 0 0;
+            border: 10px solid;
+            border-color: var(--color-background);
+        }
+        @keyframes border {
+            0% { background-position: 0 0; }
+            20% { background-position: 100% 0; }
+            40% { background-position: 100% 100%; }
+            60% { background-position: 0 100%; }
+            100% { background-position: 0 0; }
+        }
+        .container {
+            background: var(--color-background);
+            border-radius: 1rem;
+            height: calc(100% - 10px);
+            width: calc(100% - 10px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .myName{
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-family: "Open Sans", sans-serif;
-            color: #6DA0F5;
+            color: var(--color-primary);
+        }
+        .myName_subheading_TOP_lines{
+            font-size: 1rem;
+            font-family: "Open Sans", sans-serif;
+            color: var(--color-main);
+            text-align: right;
+        }
+        .myName_subheading_BOTTOM_lines{
+            font-size: 1rem;
+            font-family: "Open Sans", sans-serif;
+            color: var(--color-main);
+            text-align: right;
+        }
+        .myName_subheading_BOTTOM_text{
+            font-size: 0.97rem;
         }
         .hi {
             display: inline-block;
@@ -39,8 +86,8 @@
         }
     </style>
     <div class='body'>
-        <div>
-            <h2 class='myName'>Hi <span class='hi'>👋🏻</span>, I'm Aniruddh Varun</h2>
+        <div class='container'>
+            <h2 class='myName'><p class='myName_subheading_TOP_lines'> ┌─────────────┐ </p> Hi <span class='hi'>👋🏻</span>, I'm TheCodarOfficial <p class='myName_subheading_BOTTOM_lines'> └─ <span class='myName_subheading_BOTTOM_text'>Aniruddh Varun</span> ─┘ </p></h2>
         </div>
     </div>
   </div>
