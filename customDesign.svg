@@ -1,0 +1,48 @@
+<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .body{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #191A25;
+            border-radius: 8px;
+        }
+        .myName{
+            font-size: 1.8rem;
+            font-family: "Open Sans", sans-serif;
+            color: #6DA0F5;
+        }
+        .hi {
+            display: inline-block;
+            transform-origin: 70% 70%;
+            animation: hi 3s linear -2s infinite;
+        }
+        @keyframes hi {
+            25% { transform: rotate(0deg); }
+            30% { transform: rotate(15deg); }
+            35% { transform: rotate(0deg); }
+            40% { transform: rotate(15deg); }
+            45% { transform: rotate(0deg); }
+            80% { transform: rotate(0deg); }
+            85% { transform: rotate(15deg); }
+            90% { transform: rotate(0deg); }
+            95% { transform: rotate(15deg); }
+            100% { transform: rotate(0deg); }
+        }
+    </style>
+    <div class='body'>
+        <div>
+            <h2 class='myName'>Hi <span class='hi'>👋🏻</span>, I'm Aniruddh Varun</h2>
+        </div>
+    </div>
+  </div>
+  </foreignObject>
+</svg>
