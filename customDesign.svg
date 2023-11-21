@@ -27,7 +27,6 @@
             animation: border 5s linear infinite;
             background-size: 200% 200%;
             background-position: 0 0;
-            border: 10px solid;
             border-color: var(--color-background);
         }
         @keyframes border {
