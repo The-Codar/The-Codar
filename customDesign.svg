@@ -90,7 +90,7 @@
 
                 .window {
                     font-family: 'Ubuntu Mono', monospace;
-                    <!-- border: 2px solid #44daff; -->
+                    <!-- border: 2px solid #ffffff; -->
                     width: 90%;
                     background-color: #272C34;
                     border-radius: 10px;
@@ -148,11 +148,11 @@
                 }
 
                 .usercustomfakeroot{
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                 }
                 .fakeerrorcustom{
                     color: #ff6f6f;
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                 }
                 
                 <!-- typing effect intro end -->
@@ -160,7 +160,7 @@
                 <!-- auto typing effect backend intro start -->
 
                 .window__content p {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                     overflow: hidden;
                     width: 0;
@@ -242,9 +242,9 @@
                             <span class="window__actionButton window__actionButton--fullscreen"></span>
                         </div>
                         <pre class="window__content">
-                            <span class="usercustomfakeroot">#root.TheCodarOfficial.dev ~$ git introduction </span>
+                            <span class="usercustomfakeroot"># root@TheCodarOfficial.dev ~$ git run introduction </span>
                             <p>Executing introduction...</p>
-                            <p>github profile url: https://github.com/TheCodarOfficial</p>
+                            <p>profile url: https://github.com/TheCodarOfficial</p>
                             <p>github username: TheCodarOfficial</p>
                             <p>github started: !(16-11-2023)</p>
                             <p>name: !(Aniruddh Varun)¿</p>
@@ -255,9 +255,9 @@
                             <p>Cleaning up...</p>
                             <p><span class="fakeerrorcustom">Error occured!@#$%^*1234567890#######...</span></p>
                             <p>Just doing fun hehehehe!</p>
-                            <p>Success</p>
+                            <p>Success...</p>
                             <p>Thank you for reading! have a great day.</p>
-                            <p>Peace Out.</p>
+                            <p>Peace Out...</p>
                         </pre>
                     </div>
                     <!-- end of auto type -->
