@@ -242,22 +242,22 @@
                             <span class="window__actionButton window__actionButton--fullscreen"></span>
                         </div>
                         <pre class="window__content">
-                            <span class="usercustomfakeroot"># root@TheCodarOfficial.dev ~$ git run introduction </span>
-                            <p>Executing introduction...</p>
-                            <p>profile url: https://github.com/TheCodarOfficial</p>
-                            <p>github username: TheCodarOfficial</p>
-                            <p>github started: !(16-11-2023)</p>
-                            <p>name: !(Aniruddh Varun)¿</p>
-                            <p>currently working: False</p>
-                            <p>learning: Secret!</p>
-                            <p>how to reach me: Secret!</p>
-                            <p>fun fact: !(Just do what you want!)?</p>
-                            <p>Cleaning up...</p>
-                            <p><span class="fakeerrorcustom">Error occured!@#$%^*1234567890#######...</span></p>
-                            <p>Just doing fun hehehehe!</p>
-                            <p>Success...</p>
-                            <p>Thank you for reading! have a great day.</p>
-                            <p>Peace Out...</p>
+                            <span class="usercustomfakeroot"> # root@TheCodarOfficial.dev ~$ git run introduction </span>
+                            <p> Executing introduction... </p>
+                            <p> profile url: https://github.com/TheCodarOfficial </p>
+                            <p> github username: TheCodarOfficial </p>
+                            <p> github started: !(16-11-2023) </p>
+                            <p> name: !(Aniruddh Varun)¿ </p>
+                            <p> currently working: False </p>
+                            <p> learning: Secret! </p>
+                            <p> how to reach me: Secret! </p>
+                            <p> fun fact: !(Just do what you want!)? </p>
+                            <p> Cleaning up... </p>
+                            <p> <span class="fakeerrorcustom">Error occured!@#$%^*1234567890#######... </span> </p>
+                            <p> Just doing fun hehehehe! </p>
+                            <p> Success... </p>
+                            <p> Thank you for reading! have a great day. </p>
+                            <p> Peace Out... </p>
                         </pre>
                     </div>
                     <!-- end of auto type -->
