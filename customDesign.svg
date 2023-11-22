@@ -1,94 +1,268 @@
-<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 600" width="600" height="600" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-  <div xmlns="http://www.w3.org/1999/xhtml">
-    <style>
-        *{
-            --color-main: #71ffbd;
-            --color-primary: #44daff;
-            --color-secondary: #7977e8;
-            --color-background: #191A25;
-            --color-link: #9ecbfed7;
-            --color-link-active: #9ecbfe;
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
+                *{
+                    --color-main: #71ffbd;
+                    --color-primary: #44daff;
+                    --color-secondary: #7977e8;
+                    --color-background: #191A25;
+                    --color-link: #9ecbfed7;
+                    --color-link-active: #9ecbfe;
 
-            padding: 0;
-            margin: 0;
-            outline: none;
-            color: inherit;
-            box-sizing: border-box;
-        }
-        .body{
-            height: 400px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #191A25;
-            background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
-            animation: border 5s linear infinite;
-            background-size: 200% 200%;
-            background-position: 0 0;
-            border-color: var(--color-background);
-        }
-        @keyframes border {
-            0% { background-position: 0 0; }
-            20% { background-position: 100% 0; }
-            40% { background-position: 100% 100%; }
-            60% { background-position: 0 100%; }
-            100% { background-position: 0 0; }
-        }
-        .container {
-            background: var(--color-background);
-            border-radius: 1rem;
-            height: calc(100% - 10px);
-            width: calc(100% - 10px);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .myName{
-            font-size: 1.5rem;
-            font-family: "Open Sans", sans-serif;
-            color: var(--color-primary);
-        }
-        .myName_subheading_TOP_lines{
-            font-size: 1rem;
-            font-family: "Open Sans", sans-serif;
-            color: var(--color-main);
-            text-align: right;
-        }
-        .myName_subheading_BOTTOM_lines{
-            font-size: 1rem;
-            font-family: "Open Sans", sans-serif;
-            color: var(--color-main);
-            text-align: right;
-        }
-        .myName_subheading_BOTTOM_text{
-            font-size: 0.97rem;
-        }
-        .hi {
-            display: inline-block;
-            transform-origin: 70% 70%;
-            animation: hi 3s linear -2s infinite;
-        }
-        @keyframes hi {
-            25% { transform: rotate(0deg); }
-            30% { transform: rotate(15deg); }
-            35% { transform: rotate(0deg); }
-            40% { transform: rotate(15deg); }
-            45% { transform: rotate(0deg); }
-            80% { transform: rotate(0deg); }
-            85% { transform: rotate(15deg); }
-            90% { transform: rotate(0deg); }
-            95% { transform: rotate(15deg); }
-            100% { transform: rotate(0deg); }
-        }
-    </style>
-    <div class='body'>
-        <div class='container'>
-            <h2 class='myName'><p class='myName_subheading_TOP_lines'> ┌─────────────┐ </p> Hi <span class='hi'>👋🏻</span>, I'm TheCodarOfficial <p class='myName_subheading_BOTTOM_lines'> └─ <span class='myName_subheading_BOTTOM_text'>Aniruddh Varun</span> ─┘ </p></h2>
+                    padding: 0;
+                    margin: 0;
+                    outline: none;
+                    color: inherit;
+                    box-sizing: border-box;
+                }
+                .body{
+                    height: 600px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #191A25;
+                    background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+                    animation: border 5s linear infinite;
+                    background-size: 200% 200%;
+                    background-position: 0 0;
+                    border-color: var(--color-background);
+                }
+                @keyframes border {
+                    0% { background-position: 0 0; }
+                    20% { background-position: 100% 0; }
+                    40% { background-position: 100% 100%; }
+                    60% { background-position: 0 100%; }
+                    100% { background-position: 0 0; }
+                }
+                .container {
+                    background: var(--color-background);
+                    border-radius: 1rem;
+                    height: calc(100% - 10px);
+                    width: calc(100% - 10px);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .myName{
+                    font-size: 1.5rem;
+                    font-family: "Open Sans", sans-serif;
+                    color: var(--color-primary);
+                }
+                .myName_subheading_TOP_lines{
+                    font-size: 1rem;
+                    font-family: "Open Sans", sans-serif;
+                    color: var(--color-main);
+                    text-align: right;
+                }
+                .myName_subheading_BOTTOM_lines{
+                    font-size: 1rem;
+                    font-family: "Open Sans", sans-serif;
+                    color: var(--color-main);
+                    text-align: right;
+                }
+                .myName_subheading_BOTTOM_text{
+                    font-size: 0.97rem;
+                }
+                .hi {
+                    display: inline-block;
+                    transform-origin: 70% 70%;
+                    animation: hi 3s linear -2s infinite;
+                }
+                @keyframes hi {
+                    25% { transform: rotate(0deg); }
+                    30% { transform: rotate(15deg); }
+                    35% { transform: rotate(0deg); }
+                    40% { transform: rotate(15deg); }
+                    45% { transform: rotate(0deg); }
+                    80% { transform: rotate(0deg); }
+                    85% { transform: rotate(15deg); }
+                    90% { transform: rotate(0deg); }
+                    95% { transform: rotate(15deg); }
+                    100% { transform: rotate(0deg); }
+                }
+
+                
+                <!-- typing effect intro start -->
+
+                .window {
+                    font-family: 'Ubuntu Mono', monospace;
+                    <!-- border: 2px solid #44daff; -->
+                    width: 90%;
+                    background-color: #272C34;
+                    border-radius: 10px;
+                }
+
+                .window__actions {
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                    position: relative;
+                    background-color: #4B4D4D;
+                    padding: 10px;
+                }
+                .window__actions:before, .window__actions:after {
+                    content: " ";
+                    display: table;
+                }
+                .window__actions:after {
+                    clear: both;
+                }
+
+                .window__actionButton {
+                    display: inline-block;
+                    float: left;
+                    border-radius: 100%;
+                }
+                .window__actionButton:before {
+                    content: " ";
+                    display: block;
+                    height: 13px;
+                    width: 13px;
+                }
+                .window__actionButton:not(:last-child) {
+                    margin-right: 7px;
+                }
+
+                .window__actionButton--close {
+                    background-color: #ff5f58;
+                }
+
+                .window__actionButton--minimize {
+                    background-color: #ffbd2e;
+                }
+
+                .window__actionButton--fullscreen {
+                    background-color: #29ca41;
+                }
+
+                .window__content {
+                    display: block;
+                    padding: 10px 10px 10px;
+                    margin: 0;
+                    white-space: nowrap;
+                    line-height: 1.33;
+                    color: #08FF09;
+                }
+
+                .usercustomfakeroot{
+                    font-size: 1.1rem;
+                }
+                .fakeerrorcustom{
+                    color: #ff6f6f;
+                    font-size: 1.1rem;
+                }
+                
+                <!-- typing effect intro end -->
+
+                <!-- auto typing effect backend intro start -->
+
+                .window__content p {
+                    font-size: 1.1rem;
+                    margin: 0;
+                    overflow: hidden;
+                    width: 0;
+                    animation: type 4s steps(100, end) forwards;
+                }
+                .window__content p:nth-child(2) {
+                    animation-delay: 4s;
+                }
+                .window__content p:nth-child(3) {
+                    animation-delay: 8s;
+                }
+                .window__content p:nth-child(4) {
+                    animation-delay: 12s;
+                }
+                .window__content p:nth-child(5) {
+                    animation-delay: 16s;
+                }
+                .window__content p:nth-child(6) {
+                    animation-delay: 20s;
+                }
+                .window__content p:nth-child(7) {
+                    animation-delay: 24s;
+                }
+                .window__content p:nth-child(8) {
+                    animation-delay: 28s;
+                }
+                .window__content p:nth-child(9) {
+                    animation-delay: 32s;
+                }
+                .window__content p:nth-child(10) {
+                    animation-delay: 36s;
+                }
+                .window__content p:nth-child(11) {
+                    animation-delay: 40s;
+                }
+                .window__content p:nth-child(12) {
+                    animation-delay: 44s;
+                }
+                .window__content p:nth-child(13) {
+                    animation-delay: 48s;
+                }
+                .window__content p:nth-child(14) {
+                    animation-delay: 52s;
+                }
+                .window__content p:nth-child(15) {
+                    animation-delay: 56s;
+                }
+                .window__content p:nth-child(16) {
+                    animation-delay: 60s;
+                }
+                .span-mouse-cursor {
+                    animation: blink-cursor 1s infinite;
+                }
+                @keyframes type {
+                    to {
+                        width: 100%;
+                    }
+                }
+                @keyframes blink-cursor {
+                    to {
+                        opacity: .0;
+                    }
+                }
+                ::selection {
+                    background: #272c34;
+                }
+
+                <!-- auto typing effect backend intro end -->
+            </style>
+            <div class='body'>
+                <div class='container'>
+                    <h2 class='myName'><p class='myName_subheading_TOP_lines'> ┌─────────────┐ </p> Hi <span class='hi'>👋🏻</span>, I'm TheCodarOfficial <p class='myName_subheading_BOTTOM_lines'> └─ <span class='myName_subheading_BOTTOM_text'>Aniruddh Varun</span> ─┘ </p></h2>
+                    <br />
+                    <!-- start of auto type -->
+                    <div class="window">
+                        <div class="window__actions">
+                            <span class="window__actionButton window__actionButton--close"></span>
+                            <span class="window__actionButton window__actionButton--minimize"></span>
+                            <span class="window__actionButton window__actionButton--fullscreen"></span>
+                        </div>
+                        <pre class="window__content">
+                            <span class="usercustomfakeroot">#root.TheCodarOfficial.dev ~$ git introduction </span>
+                            <p>Executing introduction...</p>
+                            <p>github profile url: https://github.com/TheCodarOfficial</p>
+                            <p>github username: TheCodarOfficial</p>
+                            <p>github started: !(16-11-2023)</p>
+                            <p>name: !(Aniruddh Varun)¿</p>
+                            <p>currently working: False</p>
+                            <p>learning: Secret!</p>
+                            <p>how to reach me: Secret!</p>
+                            <p>fun fact: !(Just do what you want!)?</p>
+                            <p>Cleaning up...</p>
+                            <p><span class="fakeerrorcustom">Error occured!@#$%^*1234567890#######...</span></p>
+                            <p>Just doing fun hehehehe!</p>
+                            <p>Success</p>
+                            <p>Thank you for reading! have a great day.</p>
+                            <p>Peace Out.</p>
+                        </pre>
+                    </div>
+                    <!-- end of auto type -->
+                </div>
+            </div>
         </div>
-    </div>
-  </div>
   </foreignObject>
 </svg>
