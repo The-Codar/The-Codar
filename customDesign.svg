@@ -29,6 +29,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    background-clip: padding-box;
+                    border-radius: 1rem;
                     background-color: #191A25;
                     background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
                     animation: border 5s linear infinite;
