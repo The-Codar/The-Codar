@@ -59,7 +59,7 @@
                     color: var(--color-primary);
                 }
                 .myName_subheading_TOP_lines{
-                    font-size: 0.952rem;
+                    font-size: 0.96rem;
                     font-family: "Open Sans", sans-serif;
                     color: var(--color-main);
                     text-align: right;
@@ -170,52 +170,52 @@
                     margin: 0;
                     overflow: hidden;
                     width: 0;
-                    animation: type 4s steps(100, end) forwards;
+                    animation: type 2s steps(100, end) forwards;
                 }
                 .window__content p:nth-child(2) {
-                    animation-delay: 4s;
+                    animation-delay: 2s;
                 }
                 .window__content p:nth-child(3) {
-                    animation-delay: 8s;
+                    animation-delay: 4s;
                 }
                 .window__content p:nth-child(4) {
-                    animation-delay: 12s;
+                    animation-delay: 6s;
                 }
                 .window__content p:nth-child(5) {
-                    animation-delay: 16s;
+                    animation-delay: 8s;
                 }
                 .window__content p:nth-child(6) {
-                    animation-delay: 20s;
+                    animation-delay: 10s;
                 }
                 .window__content p:nth-child(7) {
-                    animation-delay: 24s;
+                    animation-delay: 12s;
                 }
                 .window__content p:nth-child(8) {
-                    animation-delay: 28s;
+                    animation-delay: 14s;
                 }
                 .window__content p:nth-child(9) {
-                    animation-delay: 32s;
+                    animation-delay: 16s;
                 }
                 .window__content p:nth-child(10) {
-                    animation-delay: 36s;
+                    animation-delay: 18s;
                 }
                 .window__content p:nth-child(11) {
-                    animation-delay: 40s;
+                    animation-delay: 20s;
                 }
                 .window__content p:nth-child(12) {
-                    animation-delay: 44s;
+                    animation-delay: 22s;
                 }
                 .window__content p:nth-child(13) {
-                    animation-delay: 48s;
+                    animation-delay: 24s;
                 }
                 .window__content p:nth-child(14) {
-                    animation-delay: 52s;
+                    animation-delay: 26s;
                 }
                 .window__content p:nth-child(15) {
-                    animation-delay: 56s;
+                    animation-delay: 28s;
                 }
                 .window__content p:nth-child(16) {
-                    animation-delay: 60s;
+                    animation-delay: 30s;
                 }
                 .span-mouse-cursor {
                     animation: blink-cursor 1s infinite;
