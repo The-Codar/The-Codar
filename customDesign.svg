@@ -10,6 +10,12 @@
                     --color-background: #191A25;
                     --color-link: #9ecbfed7;
                     --color-link-active: #9ecbfe;
+                    --color-mac-window-background: #272C34;
+                    --color-mac-window-action-topbar: #4B4D4D;
+                    --color-matte-red: #ff5f58;
+                    --color-matte-yellow: #ffbd2e;
+                    --color-matte-green: #29ca41;
+                    --color-text-deepNeonGreen: #29ca41;
 
                     padding: 0;
                     margin: 0;
@@ -53,7 +59,7 @@
                     color: var(--color-primary);
                 }
                 .myName_subheading_TOP_lines{
-                    font-size: 1rem;
+                    font-size: 0.952rem;
                     font-family: "Open Sans", sans-serif;
                     color: var(--color-main);
                     text-align: right;
@@ -92,7 +98,7 @@
                     font-family: 'Ubuntu Mono', monospace;
                     <!-- border: 2px solid #ffffff; -->
                     width: 90%;
-                    background-color: #272C34;
+                    background-color: var(--color-mac-window-background);
                     border-radius: 10px;
                 }
 
@@ -100,7 +106,7 @@
                     border-top-right-radius: 10px;
                     border-top-left-radius: 10px;
                     position: relative;
-                    background-color: #4B4D4D;
+                    background-color: var(--color-mac-window-action-topbar);
                     padding: 10px;
                 }
                 .window__actions:before, .window__actions:after {
@@ -127,15 +133,15 @@
                 }
 
                 .window__actionButton--close {
-                    background-color: #ff5f58;
+                    background-color: var(--color-matte-red);
                 }
 
                 .window__actionButton--minimize {
-                    background-color: #ffbd2e;
+                    background-color: var(--color-matte-yellow);
                 }
 
                 .window__actionButton--fullscreen {
-                    background-color: #29ca41;
+                    background-color: var(--color-matte-green);
                 }
 
                 .window__content {
@@ -144,14 +150,14 @@
                     margin: 0;
                     white-space: nowrap;
                     line-height: 1.33;
-                    color: #08FF09;
+                    color: var(--color-text-deepNeonGreen);
                 }
 
                 .usercustomfakeroot{
                     font-size: 1rem;
                 }
                 .fakeerrorcustom{
-                    color: #ff6f6f;
+                    color: var(--color-matte-red);
                     font-size: 1rem;
                 }
                 
@@ -232,7 +238,7 @@
             </style>
             <div class='body'>
                 <div class='container'>
-                    <h2 class='myName'><p class='myName_subheading_TOP_lines'> ┌─────────────┐ </p> Hi <span class='hi'>👋🏻</span>, I'm TheCodarOfficial <p class='myName_subheading_BOTTOM_lines'> └─ <span class='myName_subheading_BOTTOM_text'>Aniruddh Varun</span> ─┘ </p></h2>
+                    <h2 class='myName'><p class='myName_subheading_TOP_lines'> ┌─────────────┐ </p> Hi <span class='hi'>👋🏻</span>, I'm The-Codar <p class='myName_subheading_BOTTOM_lines'> └─ <span class='myName_subheading_BOTTOM_text'>एniruddh वीarun</span> ┘ </p></h2>
                     <br />
                     <!-- start of auto type -->
                     <div class="window">
@@ -242,18 +248,18 @@
                             <span class="window__actionButton window__actionButton--fullscreen"></span>
                         </div>
                         <pre class="window__content">
-                            <span class="usercustomfakeroot"> # root@TheCodarOfficial.dev ~$ git run introduction </span>
+                            <span class="usercustomfakeroot"> #root@The-Codar.एniruddhवीarun ~$ git run introduction </span>
                             <p> Executing introduction... </p>
-                            <p> profile url: https://github.com/TheCodarOfficial </p>
-                            <p> github username: TheCodarOfficial </p>
+                            <p> profile url: https://github.com/The-Codar </p>
+                            <p> github username: The-Codar </p>
                             <p> github started: !(16-11-2023) </p>
-                            <p> name: !(Aniruddh Varun)¿ </p>
+                            <p> name: !(एniruddh वीarun)¿ </p>
                             <p> currently working: False </p>
-                            <p> learning: Secret! </p>
+                            <p> learning: True </p>
                             <p> how to reach me: Secret! </p>
                             <p> fun fact: !(Just do what you want!)? </p>
                             <p> Cleaning up... </p>
-                            <p> <span class="fakeerrorcustom">Error occured!@#$%^*1234567890#######... </span> </p>
+                            <p> <span class="fakeerrorcustom">Error occured! @#$%^*123456############...... </span> </p>
                             <p> Just doing fun hehehehe! </p>
                             <p> Success... </p>
                             <p> Thank you for reading! have a great day. </p>
