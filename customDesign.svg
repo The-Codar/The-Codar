@@ -105,11 +105,19 @@
                 }
 
                 .window__actions {
+                    display: flex;
                     border-top-right-radius: 10px;
                     border-top-left-radius: 10px;
                     position: relative;
                     background-color: var(--color-mac-window-action-topbar);
                     padding: 10px;
+                    align-items: center;
+                }
+                .window__Title__root{
+                    font-family: "Open Sans", sans-serif;
+                    letter-spacing: 0.08rem;
+                    color: #dddddd;
+                    margin-left: 1.5rem;
                 }
                 .window__actions:before, .window__actions:after {
                     content: " ";
@@ -130,6 +138,7 @@
                     height: 13px;
                     width: 13px;
                 }
+
                 .window__actionButton:not(:last-child) {
                     margin-right: 7px;
                 }
@@ -248,6 +257,9 @@
                             <span class="window__actionButton window__actionButton--close"></span>
                             <span class="window__actionButton window__actionButton--minimize"></span>
                             <span class="window__actionButton window__actionButton--fullscreen"></span>
+                            <div class="window__Title__root">
+                                <span class="window__Title__child__root">Terminal - root@The-Codar.एniruddhवीarun</span>
+                            </div>
                         </div>
                         <pre class="window__content">
                             <span class="usercustomfakeroot"> #root@The-Codar.एniruddhवीarun ~$ git run introduction </span>
