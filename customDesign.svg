@@ -262,7 +262,7 @@
                             </div>
                         </div>
                         <pre class="window__content">
-                            <span class="usercustomfakeroot"> #root@The-Codar.एniruddhवीarun ~$ git run introduction </span>
+                            <span class="usercustomfakeroot"> # root@The-Codar.एniruddhवीarun ~$ git run introduction </span>
                             <p> Executing introduction... </p>
                             <p> profile url: https://github.com/The-Codar </p>
                             <p> github username: The-Codar </p>
